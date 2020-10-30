@@ -23,25 +23,28 @@
 
         <!-- numbers -->
         <ul class="header__about-numbers-list numbers-list">
-          <li class="numbers-list__item"><a class="numbers-list__link number" href="tel:+73830000000">+7 (383) 000-00-00</a></li>
-          <li class="numbers-list__item"><a class="numbers-list__link number" href="tel:+73830000000">+7 (383) 000-00-00</a></li>
+          <li class="header__about-numbers-list-item"><a class="header__about-numbers-list-link number" href="tel:+73830000000">+7 (383) 000-00-00</a></li>
+          <li class="header__about-numbers-list-item"><a class="header__about-numbers-list-link number" href="tel:+73830000000">+7 (383) 000-00-00</a></li>
         </ul>
       </div>
 
       <!-- header middle -->
       <div class="header__middle">
-        <img class="header__middle-logo" src="" width="" height="" alt="Логотип компании BRAND">
+        <a class="header__middle-link">
+          <img class="header__middle-logo" src="img/desktop/logo.png" width="127" height="101" alt="Логотип компании BRAND">
+        </a>
 
         <div class="header__search">
           <p class="header__slogan">Текст слогана или описание деятельности компании</p>
 
           <form class="header__form" action="url" method="post">
             <input class="header__form-input" type="text" name="search-field" placeholder="Найти товар ...">
+            <button class="header__form-button" type="button" aria-label="Поиск"></button>
           </form>
         </div>
 
         <div class="header__cart">
-          <input class="header__cart-input" type="text" name="cart-field">
+          <input class="header__cart-input" type="text" name="cart-field" value="0">
         </div>
       </div>
 
